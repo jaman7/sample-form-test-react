@@ -1,0 +1,21 @@
+.textarea-component {
+  background-color: $colorWhite;
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid $colorDarkGray;
+  height: auto;
+  line-height: 1;
+  color: $colorPrimary;
+  font-size: $fontSizeDefault;
+  padding: 3px;
+
+  &.p-disabled {
+    opacity: 1;
+    color: $colorPrimary;
+  }
+
+  &.invalid {
+    border: 2px solid $colorRed;
+  }
+}

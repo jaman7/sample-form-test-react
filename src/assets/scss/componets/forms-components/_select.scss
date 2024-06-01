@@ -1,0 +1,70 @@
+.select-component {
+  font-family: $fontRoboto;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid $colorDarkGray;
+  height: auto;
+  line-height: 1;
+  font-size: $fontSizeDefault;
+  color: $colorPrimary;
+  box-shadow: none;
+
+  &:focus,
+  &:active {
+    border: 1px solid $colorBlue;
+  }
+
+  &.invalid {
+    border: 2px solid $colorRed;
+  }
+
+  & .p-component {
+    width: 100%;
+  }
+
+  & .p-dropdown-label {
+    font-family: $fontRoboto;
+    padding: 0.25rem;
+    color: $colorPrimary;
+    font-size: $fontSizeDefault;
+    line-height: initial;
+  }
+
+  &.p-disabled {
+    opacity: 1;
+
+    & .p-dropdown-label {
+      color: $colorPrimary !important;
+    }
+  }
+}
+
+.select-component-panel {
+  & .p-dropdown {
+    &-items {
+      font-family: $fontRoboto;
+      margin: 0;
+      padding: 0;
+    }
+
+    &-item {
+      margin: 0;
+      padding: 4px 8px;
+      color: $colorPrimary;
+      font-size: $fontSizeDefault - 2;
+      line-height: initial;
+      transition: all 200ms ease-in-out;
+
+      &.p-highlight {
+        background-color: $colorDarkBlue;
+        color: $colorWhite;
+        display: none;
+      }
+
+      &:hover {
+        background-color: $colorLightBlue;
+        color: $colorWhite;
+      }
+    }
+  }
+}

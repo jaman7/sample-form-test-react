@@ -1,0 +1,29 @@
+{
+  "buttons": {
+    "edit": "Edit",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "save": "Save",
+    "view": "Browse",
+    "add": "Add"
+  },
+  "table": {
+    "code": "Code",
+    "name": "Name",
+    "status": "Status",
+    "description": "Description"
+  },
+  "trucks": {
+    "modal": {
+      "add": "Add Truck - {{value}}",
+      "edit": "Edit Truck - {{value}}",
+      "view": "View Truck - {{value}}",
+      "form": {
+        "code": "Code",
+        "name": "Name",
+        "statusId": "Status",
+        "description": "Description"
+      }
+    }
+  }
+}
