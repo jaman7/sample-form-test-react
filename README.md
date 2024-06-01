@@ -1,9 +1,14 @@
-# disco-floor-sample-app react-vite-mobx-typescript
+# smaple-form-test-react
 
 ## Use git clone.
 
 ```
-git clone https://github.com/jaman7/react-vite-mobx-typescript-disco-floor-sample-app.git
+git clone https://github.com/jaman7/sample-form-test-react.git
+```
+
+## required
+```
+node 20.11.0
 ```
 
 ## install
@@ -17,5 +22,3 @@ npm install
 ```
 npm run dev
 ```
-
-"# react-vite-mobx-typescript-disco-floor-sample-app"
