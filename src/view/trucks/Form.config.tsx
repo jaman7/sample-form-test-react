@@ -1,5 +1,5 @@
 import { IFormElementsConfig } from 'common/formElements/FormElements.model';
-import { IDictionary } from 'common/select/Select.model';
+import { IDictType } from 'common/select/Select.model';
 import * as Yup from 'yup';
 
 export const formConfigTrucks: IFormElementsConfig = {
@@ -15,7 +15,7 @@ export const validationSchema = Yup.object().shape({
   statusId: Yup.string().required().min(1),
 });
 
-export const selectDict = [
+export const selectDict: IDictType[] = [
   { id: 1, displayName: 'LOADING' },
   { id: 2, displayName: 'TO_JOB' },
   { id: 3, displayName: 'AT_JOB' },
@@ -23,6 +23,6 @@ export const selectDict = [
   { id: 5, displayName: 'OUT_OF_SERVICE' },
 ];
 
-export const dictionaries: IDictionary = {
+export const dictionaries: { [name: string]: IDictType[] } = {
   selectDict,
 };
