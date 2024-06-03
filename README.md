@@ -1,4 +1,4 @@
-# smaple-form-test-react
+# sample-form-test-react
 
 ## Use git clone.
 
